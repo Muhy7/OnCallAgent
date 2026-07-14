@@ -1,0 +1,570 @@
+2026-05-26 11:27:02 | WARNING  | vector_embedding_service.__init__:49 | DashScope Embeddings 延迟初始化: DASHSCOPE_API_KEY 未设置或无效，请在 .env 文件中配置正确的 API Key 以启用向量嵌入功能。
+2026-05-26 11:27:12 | ERROR    | vector_store_manager._initialize_vector_store:54 | VectorStore 初始化失败: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2026-05-26 11:28:14 | WARNING  | vector_embedding_service.__init__:49 | DashScope Embeddings 延迟初始化: DASHSCOPE_API_KEY 未设置或无效，请在 .env 文件中配置正确的 API Key 以启用向量嵌入功能。
+2026-05-26 11:28:14 | INFO     | vector_store_manager.__init__:24 | VectorStoreManager 已创建（延迟初始化模式）
+2026-05-26 11:30:34 | WARNING  | vector_embedding_service.__init__:49 | DashScope Embeddings 延迟初始化: DASHSCOPE_API_KEY 未设置或无效，请在 .env 文件中配置正确的 API Key 以启用向量嵌入功能。
+2026-05-26 11:30:34 | INFO     | vector_store_manager.__init__:24 | VectorStoreManager 已创建（延迟初始化模式）
+2026-05-26 11:32:00 | WARNING  | vector_embedding_service.__init__:49 | DashScope Embeddings 延迟初始化: DASHSCOPE_API_KEY 未设置或无效，请在 .env 文件中配置正确的 API Key 以启用向量嵌入功能。
+2026-05-26 11:32:00 | INFO     | vector_store_manager.__init__:24 | VectorStoreManager 已创建（延迟初始化模式）
+2026-05-26 11:32:03 | INFO     | rag_agent_service.__init__:109 | RAG Agent 服务初始化完成 (OpenAI兼容模式), model=qwen-max, streaming=True
+2026-05-26 11:32:06 | INFO     | document_splitter_service.__init__:39 | 文档分割服务初始化完成, chunk_size=800, secondary_chunk_size=1600, overlap=100
+2026-05-26 11:32:06 | INFO     | vector_index_service.__init__:65 | 向量索引服务初始化完成
+2026-05-26 11:34:58 | WARNING  | vector_embedding_service.__init__:49 | DashScope Embeddings 延迟初始化: DASHSCOPE_API_KEY 未设置或无效，请在 .env 文件中配置正确的 API Key 以启用向量嵌入功能。
+2026-05-26 11:34:58 | INFO     | vector_store_manager.__init__:24 | VectorStoreManager 已创建（延迟初始化模式）
+2026-05-26 11:35:01 | INFO     | rag_agent_service.__init__:109 | RAG Agent 服务初始化完成 (OpenAI兼容模式), model=qwen-max, streaming=True
+2026-05-26 11:35:01 | INFO     | document_splitter_service.__init__:39 | 文档分割服务初始化完成, chunk_size=800, secondary_chunk_size=1600, overlap=100
+2026-05-26 11:35:01 | INFO     | vector_index_service.__init__:65 | 向量索引服务初始化完成
+2026-05-26 11:35:06 | INFO     | aiops_service._build_graph:31 | 构建工作流图...
+2026-05-26 11:35:06 | INFO     | aiops_service._build_graph:78 | 工作流图构建完成
+2026-05-26 11:35:06 | INFO     | aiops_service.__init__:27 | Plan-Execute-Replan Service 初始化完成
+2026-05-26 11:35:07 | INFO     | main.lifespan:23 | ============================================================
+2026-05-26 11:35:07 | INFO     | main.lifespan:24 | 🚀 SuperBizAgent v1.0.0 启动中...
+2026-05-26 11:35:07 | INFO     | main.lifespan:25 | 📝 环境: 开发
+2026-05-26 11:35:07 | INFO     | main.lifespan:26 | 🌐 监听地址: http://0.0.0.0:9900
+2026-05-26 11:35:07 | INFO     | main.lifespan:27 | 📚 API 文档: http://0.0.0.0:9900/docs
+2026-05-26 11:35:07 | INFO     | main.lifespan:30 | 🔌 正在连接 Milvus...
+2026-05-26 11:35:07 | INFO     | milvus_client.connect:44 | 正在连接到 Milvus: localhost:19530
+2026-05-26 11:35:17 | ERROR    | milvus_client.connect:98 | Milvus 操作失败: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2026-05-26 11:35:17 | INFO     | milvus_client.close:267 | 已关闭 Milvus 连接
+2026-05-26 11:35:17 | WARNING  | main.lifespan:35 | ⚠️  Milvus 连接失败: Milvus 操作失败: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2026-05-26 11:35:17 | WARNING  | main.lifespan:36 | ⚠️ 向量库功能暂时不可用，但基础 Web 服务已可正常使用
+2026-05-26 11:35:17 | INFO     | main.lifespan:37 | 💡 提示: 如需完整向量功能，请先启动 Docker 并运行 'docker compose -f vector-database.yml up -d'
+2026-05-26 11:35:17 | INFO     | main.lifespan:39 | ============================================================
+2026-05-26 11:36:49 | INFO     | chat.chat:37 | [会话 session_vlm6vnhap_1779766559997] 收到快速对话请求: 故障
+2026-05-26 11:36:49 | INFO     | mcp_client.get_mcp_client:119 | 初始化全局 MCP 客户端...
+2026-05-26 11:36:49 | INFO     | mcp_client.get_mcp_client:125 | 全局 MCP 客户端初始化完成
+2026-05-26 11:36:51 | ERROR    | rag_agent_service.query:231 | [会话 session_vlm6vnhap_1779766559997] RAG Agent 查询失败（非流式）: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:36:51 | ERROR    | chat.chat:56 | 对话接口错误: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:37:16 | INFO     | aiops.diagnose_stream:125 | [会话 session_gc11eizhw_1779766636468] 收到 AIOps 诊断请求（流式）
+2026-05-26 11:37:16 | INFO     | aiops_service.execute:96 | [会话 session_gc11eizhw_1779766636468] 开始执行任务: 诊断当前系统是否存在告警，如果存在告警请详细分析告警原因并生成诊断报告，诊断报告输出格式要求：
+                ```
+                # 告警分析报告
+
+                ---
+
+                ## 📋 活跃告警清单
+
+                | 告警名称 | 级别 | 目标服务 | 首次触发时间 | 最新触发时间 | 状态 |
+                |---------|------|----------|-------------|-------------|------|
+                | [告警1名称] | [级别] | [服务名] | [时间] | [时间] | 活跃 |
+                | [告警2名称] | [级别] | [服务名] | [时间] | [时间] | 活跃 |
+
+                ---
+
+                ## 🔍 告警根因分析1 - [告警名称]
+
+                ### 告警详情
+                - **告警级别**: [级别]
+                - **受影响服务**: [服务名]
+                - **持续时间**: [X分钟]
+
+                ### 症状描述
+                [根据监控指标描述症状]
+
+                ### 日志证据
+                [引用查询到的关键日志]
+
+                ### 根因结论
+                [基于证据得出的根本原因]
+
+                ---
+
+                ## 🛠️ 处理方案执行1 - [告警名称]
+
+                ### 已执行的排查步骤
+                1. [步骤1]
+                2. [步骤2]
+
+                ### 处理建议
+                [给出具体的处理建议]
+
+                ### 预期效果
+                [说明预期的效果]
+
+                ---
+
+                ## 🔍 告警根因分析2 - [告警名称]
+                [如果有第2个告警，重复上述格式]
+
+                ---
+
+                ## 📊 结论
+
+                ### 整体评估
+                [总结所有告警的整体情况]
+
+                ### 关键发现
+                - [发现1]
+                - [发现2]
+
+                ### 后续建议
+                1. [建议1]
+                2. [建议2]
+
+                ### 风险评估
+                [评估当前风险等级和影响范围]
+                ```
+
+                **重要提醒**：
+                - 最终输出必须是纯 Markdown 文本，不要包含 JSON 结构
+                - 所有内容必须基于工具查询的真实数据，严禁编造
+                - 如果某个步骤失败，在结论中如实说明，不要跳过
+2026-05-26 11:37:16 | INFO     | planner.planner:71 | === Planner：制定执行计划 ===
+2026-05-26 11:37:16 | INFO     | planner.planner:74 | 用户输入: 诊断当前系统是否存在告警，如果存在告警请详细分析告警原因并生成诊断报告，诊断报告输出格式要求：
+                ```
+                # 告警分析报告
+
+                ---
+
+                ## 📋 活跃告警清单
+
+                | 告警名称 | 级别 | 目标服务 | 首次触发时间 | 最新触发时间 | 状态 |
+                |---------|------|----------|-------------|-------------|------|
+                | [告警1名称] | [级别] | [服务名] | [时间] | [时间] | 活跃 |
+                | [告警2名称] | [级别] | [服务名] | [时间] | [时间] | 活跃 |
+
+                ---
+
+                ## 🔍 告警根因分析1 - [告警名称]
+
+                ### 告警详情
+                - **告警级别**: [级别]
+                - **受影响服务**: [服务名]
+                - **持续时间**: [X分钟]
+
+                ### 症状描述
+                [根据监控指标描述症状]
+
+                ### 日志证据
+                [引用查询到的关键日志]
+
+                ### 根因结论
+                [基于证据得出的根本原因]
+
+                ---
+
+                ## 🛠️ 处理方案执行1 - [告警名称]
+
+                ### 已执行的排查步骤
+                1. [步骤1]
+                2. [步骤2]
+
+                ### 处理建议
+                [给出具体的处理建议]
+
+                ### 预期效果
+                [说明预期的效果]
+
+                ---
+
+                ## 🔍 告警根因分析2 - [告警名称]
+                [如果有第2个告警，重复上述格式]
+
+                ---
+
+                ## 📊 结论
+
+                ### 整体评估
+                [总结所有告警的整体情况]
+
+                ### 关键发现
+                - [发现1]
+                - [发现2]
+
+                ### 后续建议
+                1. [建议1]
+                2. [建议2]
+
+                ### 风险评估
+                [评估当前风险等级和影响范围]
+                ```
+
+                **重要提醒**：
+                - 最终输出必须是纯 Markdown 文本，不要包含 JSON 结构
+                - 所有内容必须基于工具查询的真实数据，严禁编造
+                - 如果某个步骤失败，在结论中如实说明，不要跳过
+2026-05-26 11:37:16 | INFO     | planner.planner:78 | 查询内部文档，寻找相关经验...
+2026-05-26 11:37:16 | INFO     | knowledge_tool.retrieve_knowledge:26 | 知识检索工具被调用: query='诊断当前系统是否存在告警，如果存在告警请详细分析告警原因并生成诊断报告，诊断报告输出格式要求：
+                ```
+                # 告警分析报告
+
+                ---
+
+                ## 📋 活跃告警清单
+
+                | 告警名称 | 级别 | 目标服务 | 首次触发时间 | 最新触发时间 | 状态 |
+                |---------|------|----------|-------------|-------------|------|
+                | [告警1名称] | [级别] | [服务名] | [时间] | [时间] | 活跃 |
+                | [告警2名称] | [级别] | [服务名] | [时间] | [时间] | 活跃 |
+
+                ---
+
+                ## 🔍 告警根因分析1 - [告警名称]
+
+                ### 告警详情
+                - **告警级别**: [级别]
+                - **受影响服务**: [服务名]
+                - **持续时间**: [X分钟]
+
+                ### 症状描述
+                [根据监控指标描述症状]
+
+                ### 日志证据
+                [引用查询到的关键日志]
+
+                ### 根因结论
+                [基于证据得出的根本原因]
+
+                ---
+
+                ## 🛠️ 处理方案执行1 - [告警名称]
+
+                ### 已执行的排查步骤
+                1. [步骤1]
+                2. [步骤2]
+
+                ### 处理建议
+                [给出具体的处理建议]
+
+                ### 预期效果
+                [说明预期的效果]
+
+                ---
+
+                ## 🔍 告警根因分析2 - [告警名称]
+                [如果有第2个告警，重复上述格式]
+
+                ---
+
+                ## 📊 结论
+
+                ### 整体评估
+                [总结所有告警的整体情况]
+
+                ### 关键发现
+                - [发现1]
+                - [发现2]
+
+                ### 后续建议
+                1. [建议1]
+                2. [建议2]
+
+                ### 风险评估
+                [评估当前风险等级和影响范围]
+                ```
+
+                **重要提醒**：
+                - 最终输出必须是纯 Markdown 文本，不要包含 JSON 结构
+                - 所有内容必须基于工具查询的真实数据，严禁编造
+                - 如果某个步骤失败，在结论中如实说明，不要跳过'
+2026-05-26 11:37:26 | ERROR    | vector_store_manager._initialize_vector_store:58 | VectorStore 初始化失败: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2026-05-26 11:37:26 | ERROR    | knowledge_tool.retrieve_knowledge:47 | 知识检索工具调用失败: 向量存储功能未就绪: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2026-05-26 11:37:26 | INFO     | planner.planner:86 | 找到相关经验文档，长度: 152
+2026-05-26 11:37:28 | ERROR    | planner.planner:155 | 生成计划失败: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:37:28 | INFO     | aiops_service.execute:121 | 节点 'planner' 输出事件
+2026-05-26 11:37:28 | INFO     | executor.executor:24 | === Executor：执行步骤 ===
+2026-05-26 11:37:28 | INFO     | executor.executor:35 | 当前任务: 收集相关信息
+2026-05-26 11:37:31 | ERROR    | executor.executor:112 | 执行步骤失败: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:37:31 | INFO     | aiops_service.execute:121 | 节点 'executor' 输出事件
+2026-05-26 11:37:31 | INFO     | replanner.replanner:120 | === Replanner：重新规划 ===
+2026-05-26 11:37:31 | INFO     | replanner.replanner:126 | 剩余计划步骤: 2
+2026-05-26 11:37:31 | INFO     | replanner.replanner:127 | 已执行步骤: 1
+2026-05-26 11:37:33 | WARNING  | replanner.replanner:160 | 获取工具列表失败: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:37:33 | INFO     | replanner.replanner:179 | 还有剩余计划，评估下一步行动
+2026-05-26 11:37:33 | ERROR    | replanner.replanner:238 | 重新规划失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': '4567bb2a-e75f-9c0b-883e-2d4ccd834a4f'}, 继续执行剩余计划
+2026-05-26 11:37:33 | INFO     | aiops_service.should_continue:59 | 继续执行，剩余 2 个步骤
+2026-05-26 11:37:33 | INFO     | aiops_service.execute:121 | 节点 'replanner' 输出事件
+2026-05-26 11:37:33 | INFO     | executor.executor:24 | === Executor：执行步骤 ===
+2026-05-26 11:37:33 | INFO     | executor.executor:35 | 当前任务: 分析数据
+2026-05-26 11:37:36 | ERROR    | executor.executor:112 | 执行步骤失败: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:37:36 | INFO     | aiops_service.execute:121 | 节点 'executor' 输出事件
+2026-05-26 11:37:36 | INFO     | replanner.replanner:120 | === Replanner：重新规划 ===
+2026-05-26 11:37:36 | INFO     | replanner.replanner:126 | 剩余计划步骤: 1
+2026-05-26 11:37:36 | INFO     | replanner.replanner:127 | 已执行步骤: 2
+2026-05-26 11:37:38 | WARNING  | replanner.replanner:160 | 获取工具列表失败: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:37:38 | INFO     | replanner.replanner:179 | 还有剩余计划，评估下一步行动
+2026-05-26 11:37:38 | ERROR    | replanner.replanner:238 | 重新规划失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': 'b30804bd-6835-92ef-916d-7476d5d17a86'}, 继续执行剩余计划
+2026-05-26 11:37:38 | INFO     | aiops_service.should_continue:59 | 继续执行，剩余 1 个步骤
+2026-05-26 11:37:38 | INFO     | aiops_service.execute:121 | 节点 'replanner' 输出事件
+2026-05-26 11:37:38 | INFO     | executor.executor:24 | === Executor：执行步骤 ===
+2026-05-26 11:37:38 | INFO     | executor.executor:35 | 当前任务: 生成报告
+2026-05-26 11:37:40 | ERROR    | executor.executor:112 | 执行步骤失败: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:37:40 | INFO     | aiops_service.execute:121 | 节点 'executor' 输出事件
+2026-05-26 11:37:40 | INFO     | replanner.replanner:120 | === Replanner：重新规划 ===
+2026-05-26 11:37:40 | INFO     | replanner.replanner:126 | 剩余计划步骤: 0
+2026-05-26 11:37:40 | INFO     | replanner.replanner:127 | 已执行步骤: 3
+2026-05-26 11:37:43 | WARNING  | replanner.replanner:160 | 获取工具列表失败: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:37:43 | INFO     | replanner.replanner:243 | 计划已执行完毕，生成最终响应
+2026-05-26 11:37:43 | INFO     | replanner._generate_response:249 | 生成最终响应...
+2026-05-26 11:37:43 | ERROR    | replanner._generate_response:283 | 生成响应失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': '4eee6ae9-7afc-9936-9ef4-6cf9cd242348'}
+2026-05-26 11:37:43 | INFO     | aiops_service.should_continue:53 | 已生成最终响应，结束流程
+2026-05-26 11:37:43 | INFO     | aiops_service.execute:121 | 节点 'replanner' 输出事件
+2026-05-26 11:37:43 | INFO     | aiops.event_generator:140 | [会话 session_gc11eizhw_1779766636468] AIOps 诊断流式响应完成
+2026-05-26 11:38:08 | INFO     | chat.chat:37 | [会话 session_gc11eizhw_1779766636468] 收到快速对话请求: 出现了什么问题
+2026-05-26 11:38:10 | ERROR    | rag_agent_service.query:231 | [会话 session_gc11eizhw_1779766636468] RAG Agent 查询失败（非流式）: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:38:10 | ERROR    | chat.chat:56 | 对话接口错误: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:38:45 | INFO     | aiops.diagnose_stream:125 | [会话 session_fqnos342v_1779766725209] 收到 AIOps 诊断请求（流式）
+2026-05-26 11:38:45 | INFO     | aiops_service.execute:96 | [会话 session_fqnos342v_1779766725209] 开始执行任务: 诊断当前系统是否存在告警，如果存在告警请详细分析告警原因并生成诊断报告，诊断报告输出格式要求：
+                ```
+                # 告警分析报告
+
+                ---
+
+                ## 📋 活跃告警清单
+
+                | 告警名称 | 级别 | 目标服务 | 首次触发时间 | 最新触发时间 | 状态 |
+                |---------|------|----------|-------------|-------------|------|
+                | [告警1名称] | [级别] | [服务名] | [时间] | [时间] | 活跃 |
+                | [告警2名称] | [级别] | [服务名] | [时间] | [时间] | 活跃 |
+
+                ---
+
+                ## 🔍 告警根因分析1 - [告警名称]
+
+                ### 告警详情
+                - **告警级别**: [级别]
+                - **受影响服务**: [服务名]
+                - **持续时间**: [X分钟]
+
+                ### 症状描述
+                [根据监控指标描述症状]
+
+                ### 日志证据
+                [引用查询到的关键日志]
+
+                ### 根因结论
+                [基于证据得出的根本原因]
+
+                ---
+
+                ## 🛠️ 处理方案执行1 - [告警名称]
+
+                ### 已执行的排查步骤
+                1. [步骤1]
+                2. [步骤2]
+
+                ### 处理建议
+                [给出具体的处理建议]
+
+                ### 预期效果
+                [说明预期的效果]
+
+                ---
+
+                ## 🔍 告警根因分析2 - [告警名称]
+                [如果有第2个告警，重复上述格式]
+
+                ---
+
+                ## 📊 结论
+
+                ### 整体评估
+                [总结所有告警的整体情况]
+
+                ### 关键发现
+                - [发现1]
+                - [发现2]
+
+                ### 后续建议
+                1. [建议1]
+                2. [建议2]
+
+                ### 风险评估
+                [评估当前风险等级和影响范围]
+                ```
+
+                **重要提醒**：
+                - 最终输出必须是纯 Markdown 文本，不要包含 JSON 结构
+                - 所有内容必须基于工具查询的真实数据，严禁编造
+                - 如果某个步骤失败，在结论中如实说明，不要跳过
+2026-05-26 11:38:45 | INFO     | planner.planner:71 | === Planner：制定执行计划 ===
+2026-05-26 11:38:45 | INFO     | planner.planner:74 | 用户输入: 诊断当前系统是否存在告警，如果存在告警请详细分析告警原因并生成诊断报告，诊断报告输出格式要求：
+                ```
+                # 告警分析报告
+
+                ---
+
+                ## 📋 活跃告警清单
+
+                | 告警名称 | 级别 | 目标服务 | 首次触发时间 | 最新触发时间 | 状态 |
+                |---------|------|----------|-------------|-------------|------|
+                | [告警1名称] | [级别] | [服务名] | [时间] | [时间] | 活跃 |
+                | [告警2名称] | [级别] | [服务名] | [时间] | [时间] | 活跃 |
+
+                ---
+
+                ## 🔍 告警根因分析1 - [告警名称]
+
+                ### 告警详情
+                - **告警级别**: [级别]
+                - **受影响服务**: [服务名]
+                - **持续时间**: [X分钟]
+
+                ### 症状描述
+                [根据监控指标描述症状]
+
+                ### 日志证据
+                [引用查询到的关键日志]
+
+                ### 根因结论
+                [基于证据得出的根本原因]
+
+                ---
+
+                ## 🛠️ 处理方案执行1 - [告警名称]
+
+                ### 已执行的排查步骤
+                1. [步骤1]
+                2. [步骤2]
+
+                ### 处理建议
+                [给出具体的处理建议]
+
+                ### 预期效果
+                [说明预期的效果]
+
+                ---
+
+                ## 🔍 告警根因分析2 - [告警名称]
+                [如果有第2个告警，重复上述格式]
+
+                ---
+
+                ## 📊 结论
+
+                ### 整体评估
+                [总结所有告警的整体情况]
+
+                ### 关键发现
+                - [发现1]
+                - [发现2]
+
+                ### 后续建议
+                1. [建议1]
+                2. [建议2]
+
+                ### 风险评估
+                [评估当前风险等级和影响范围]
+                ```
+
+                **重要提醒**：
+                - 最终输出必须是纯 Markdown 文本，不要包含 JSON 结构
+                - 所有内容必须基于工具查询的真实数据，严禁编造
+                - 如果某个步骤失败，在结论中如实说明，不要跳过
+2026-05-26 11:38:45 | INFO     | planner.planner:78 | 查询内部文档，寻找相关经验...
+2026-05-26 11:38:45 | INFO     | knowledge_tool.retrieve_knowledge:26 | 知识检索工具被调用: query='诊断当前系统是否存在告警，如果存在告警请详细分析告警原因并生成诊断报告，诊断报告输出格式要求：
+                ```
+                # 告警分析报告
+
+                ---
+
+                ## 📋 活跃告警清单
+
+                | 告警名称 | 级别 | 目标服务 | 首次触发时间 | 最新触发时间 | 状态 |
+                |---------|------|----------|-------------|-------------|------|
+                | [告警1名称] | [级别] | [服务名] | [时间] | [时间] | 活跃 |
+                | [告警2名称] | [级别] | [服务名] | [时间] | [时间] | 活跃 |
+
+                ---
+
+                ## 🔍 告警根因分析1 - [告警名称]
+
+                ### 告警详情
+                - **告警级别**: [级别]
+                - **受影响服务**: [服务名]
+                - **持续时间**: [X分钟]
+
+                ### 症状描述
+                [根据监控指标描述症状]
+
+                ### 日志证据
+                [引用查询到的关键日志]
+
+                ### 根因结论
+                [基于证据得出的根本原因]
+
+                ---
+
+                ## 🛠️ 处理方案执行1 - [告警名称]
+
+                ### 已执行的排查步骤
+                1. [步骤1]
+                2. [步骤2]
+
+                ### 处理建议
+                [给出具体的处理建议]
+
+                ### 预期效果
+                [说明预期的效果]
+
+                ---
+
+                ## 🔍 告警根因分析2 - [告警名称]
+                [如果有第2个告警，重复上述格式]
+
+                ---
+
+                ## 📊 结论
+
+                ### 整体评估
+                [总结所有告警的整体情况]
+
+                ### 关键发现
+                - [发现1]
+                - [发现2]
+
+                ### 后续建议
+                1. [建议1]
+                2. [建议2]
+
+                ### 风险评估
+                [评估当前风险等级和影响范围]
+                ```
+
+                **重要提醒**：
+                - 最终输出必须是纯 Markdown 文本，不要包含 JSON 结构
+                - 所有内容必须基于工具查询的真实数据，严禁编造
+                - 如果某个步骤失败，在结论中如实说明，不要跳过'
+2026-05-26 11:38:55 | ERROR    | vector_store_manager._initialize_vector_store:58 | VectorStore 初始化失败: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2026-05-26 11:38:55 | ERROR    | knowledge_tool.retrieve_knowledge:47 | 知识检索工具调用失败: 向量存储功能未就绪: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+2026-05-26 11:38:55 | INFO     | planner.planner:86 | 找到相关经验文档，长度: 152
+2026-05-26 11:38:57 | ERROR    | planner.planner:155 | 生成计划失败: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:38:57 | INFO     | aiops_service.execute:121 | 节点 'planner' 输出事件
+2026-05-26 11:38:57 | INFO     | executor.executor:24 | === Executor：执行步骤 ===
+2026-05-26 11:38:57 | INFO     | executor.executor:35 | 当前任务: 收集相关信息
+2026-05-26 11:39:00 | ERROR    | executor.executor:112 | 执行步骤失败: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:39:00 | INFO     | aiops_service.execute:121 | 节点 'executor' 输出事件
+2026-05-26 11:39:00 | INFO     | replanner.replanner:120 | === Replanner：重新规划 ===
+2026-05-26 11:39:00 | INFO     | replanner.replanner:126 | 剩余计划步骤: 2
+2026-05-26 11:39:00 | INFO     | replanner.replanner:127 | 已执行步骤: 1
+2026-05-26 11:39:02 | WARNING  | replanner.replanner:160 | 获取工具列表失败: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:39:02 | INFO     | replanner.replanner:179 | 还有剩余计划，评估下一步行动
+2026-05-26 11:39:02 | ERROR    | replanner.replanner:238 | 重新规划失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': 'cd90afbb-e218-9c66-968b-2a2a8e6b07b1'}, 继续执行剩余计划
+2026-05-26 11:39:02 | INFO     | aiops_service.should_continue:59 | 继续执行，剩余 2 个步骤
+2026-05-26 11:39:02 | INFO     | aiops_service.execute:121 | 节点 'replanner' 输出事件
+2026-05-26 11:39:02 | INFO     | executor.executor:24 | === Executor：执行步骤 ===
+2026-05-26 11:39:02 | INFO     | executor.executor:35 | 当前任务: 分析数据
+2026-05-26 11:39:05 | ERROR    | executor.executor:112 | 执行步骤失败: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:39:05 | INFO     | aiops_service.execute:121 | 节点 'executor' 输出事件
+2026-05-26 11:39:05 | INFO     | replanner.replanner:120 | === Replanner：重新规划 ===
+2026-05-26 11:39:05 | INFO     | replanner.replanner:126 | 剩余计划步骤: 1
+2026-05-26 11:39:05 | INFO     | replanner.replanner:127 | 已执行步骤: 2
+2026-05-26 11:39:07 | WARNING  | replanner.replanner:160 | 获取工具列表失败: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:39:07 | INFO     | replanner.replanner:179 | 还有剩余计划，评估下一步行动
+2026-05-26 11:39:07 | ERROR    | replanner.replanner:238 | 重新规划失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': 'fe448344-937d-9782-9c92-bf38612085ae'}, 继续执行剩余计划
+2026-05-26 11:39:07 | INFO     | aiops_service.should_continue:59 | 继续执行，剩余 1 个步骤
+2026-05-26 11:39:07 | INFO     | aiops_service.execute:121 | 节点 'replanner' 输出事件
+2026-05-26 11:39:07 | INFO     | executor.executor:24 | === Executor：执行步骤 ===
+2026-05-26 11:39:07 | INFO     | executor.executor:35 | 当前任务: 生成报告
+2026-05-26 11:39:09 | ERROR    | executor.executor:112 | 执行步骤失败: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:39:09 | INFO     | aiops_service.execute:121 | 节点 'executor' 输出事件
+2026-05-26 11:39:09 | INFO     | replanner.replanner:120 | === Replanner：重新规划 ===
+2026-05-26 11:39:09 | INFO     | replanner.replanner:126 | 剩余计划步骤: 0
+2026-05-26 11:39:09 | INFO     | replanner.replanner:127 | 已执行步骤: 3
+2026-05-26 11:39:12 | WARNING  | replanner.replanner:160 | 获取工具列表失败: unhandled errors in a TaskGroup (1 sub-exception)
+2026-05-26 11:39:12 | INFO     | replanner.replanner:243 | 计划已执行完毕，生成最终响应
+2026-05-26 11:39:12 | INFO     | replanner._generate_response:249 | 生成最终响应...
+2026-05-26 11:39:12 | ERROR    | replanner._generate_response:283 | 生成响应失败: Error code: 401 - {'error': {'message': 'Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}, 'request_id': '0f3a4336-dac9-9ed1-95d5-7addefb69bd0'}
+2026-05-26 11:39:12 | INFO     | aiops_service.should_continue:53 | 已生成最终响应，结束流程
+2026-05-26 11:39:12 | INFO     | aiops_service.execute:121 | 节点 'replanner' 输出事件
+2026-05-26 11:39:12 | INFO     | aiops.event_generator:140 | [会话 session_fqnos342v_1779766725209] AIOps 诊断流式响应完成
